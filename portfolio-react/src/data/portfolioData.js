@@ -1,0 +1,213 @@
+export const skillGroups = [
+  { id: 1, name: "React", level: "50%" },
+  { id: 2, name: "JavaScript", level: "50%" },
+  { id: 3, name: "TypeScript", level: "50%" },
+  { id: 4, name: "Node.js", level: "50%" },
+  { id: 5, name: "Express.js", level: "50%" },
+  { id: 6, name: "SQL", level: "50%" },
+  { id: 7, name: "REST API", level: "50%" },
+];
+
+export const techTools = [
+  { id: 1, name: "Docker" },
+  { id: 2, name: "Bamboo" },
+  { id: 3, name: "Bitbucket" },
+  { id: 4, name: "Playwright" },
+  { id: 5, name: "Soap UI" },
+  { id: 6, name: "Postman" },
+];
+
+export const projects = [
+  {
+    id: 1,
+    project_name: "Unit 01 - A Random Quotes Generator",
+    description:
+      "An app that displays random famous quotes each time a button is clicked, using JavaScript fundamentals like variables, loops, and objects.",
+    technologies: ["HTML", "CSS", "JavaScript (Arrays, Objects, Functions)"],
+    live_link:
+      "https://fullstackmachina.github.io/unit01_a_random_quote_generator/",
+    github_link:
+      "https://github.com/fullstackmachina/unit01_a_random_quote_generator",
+    image_urls: [
+      "/project1_desktop.webp",
+      "/project1_tablet.webp",
+      "/project1_mobile.webp",
+    ],
+    type: "completed",
+  },
+  {
+    id: 2,
+    project_name: "Unit 02 - Data Pagination and Filtering",
+    description:
+      "Use pagination techniques to display and navigate through a list of 42 students, creating a flexible solution that works with any data set size.",
+    technologies: [
+      "HTML",
+      "CSS",
+      "JavaScript (DOM Manipulation, Event handling)",
+    ],
+    live_link:
+      "https://fullstackmachina.github.io/unit02_data_pagination_and_filtering/",
+    github_link:
+      "https://github.com/fullstackmachina/unit02_data_pagination_and_filtering",
+    image_urls: [
+      "/project2_desktop.webp",
+      "/project2_tablet.webp",
+      "/project2_mobile.webp",
+    ],
+    type: "completed",
+  },
+  {
+    id: 3,
+    project_name: "Unit 03- Interactive Form",
+    description:
+      "A registration form with JavaScript for customized behavior, conditional interactivity, and real-time input validation with helpful error messages.",
+    technologies: [
+      "HTML",
+      "CSS",
+      "JavaScript (DOM Manipulation, Event handling, Form validation, Accessibility)",
+    ],
+    live_link: "https://fullstackmachina.github.io/unit03_interactive_form/",
+    github_link: "https://github.com/fullstackmachina/unit03_interactive_form",
+    image_urls: [
+      "/project3_desktop.webp",
+      "/project3_tablet.webp",
+      "/project3_mobile.webp",
+    ],
+    type: "completed",
+  },
+  {
+    id: 4,
+    project_name: "Unit 04 - OOP Game Show App",
+    description:
+      "A browser-based word guessing game using Object-Oriented Programming principles and an onscreen keyboard.",
+    technologies: [
+      "HTML",
+      "CSS",
+      "JavaScript (Object-Oriented programming,DOM Manipulation, Event handling, State management)",
+    ],
+    live_link: "https://fullstackmachina.github.io/unit04_oop_game/",
+    github_link: "https://github.com/fullstackmachina/unit04_oop_game",
+    image_urls: [
+      "/project4_desktop.webp",
+      "/project4_tablet.webp",
+      "/project4_mobile.webp",
+    ],
+    type: "completed",
+  },
+  {
+    id: 5,
+    project_name: "Unit 05 - Public API Requests",
+    description:
+      "An employee directory for a fictional company by fetching data from the Random User Generator API and displaying it in an interactive grid with modals.",
+    technologies: [
+      "HTML",
+      "CSS",
+      "JavaScript (Promises, Async & await, DOM manipulation, Arrays methods, Public API integration)",
+    ],
+    live_link: "https://fullstackmachina.github.io/unit05_public_api_request/",
+    github_link:
+      "https://github.com/fullstackmachina/unit05_public_api_request",
+    image_urls: [
+      "/project5_desktop.webp",
+      "/project5_tablet.webp",
+      "/project5_mobile.webp",
+    ],
+    type: "completed",
+  },
+  {
+    id: 6,
+    project_name: "Unit 06 - Static Node.js and Express Portfolio",
+    description:
+      "A portfolio site using Node.js, Express, and Pug templates to showcase your projects with a modern landing page, about page, and project pages.",
+    technologies: ["HTML", "CSS", "JavaScript", "Node.js", "Express", "Pug"],
+    live_link: null,
+    github_link:
+      "https://github.com/fullstackmachina/unit06_static_node_express_portfolio",
+    image_urls: [
+      "/project6_desktop.webp",
+      "/project6_tablet.webp",
+      "/project6_mobile.webp",
+    ],
+    type: "completed",
+  },
+  {
+    id: 7,
+    project_name: "Unit 07 - React Gallery App",
+    description:
+      "Build a modern single-page image gallery app using React, React Router, and the Pixabay API with search functionality and dynamic routing.",
+    technologies: ["HTML", "CSS", "JavaScript", "React", "API"],
+    live_link: null,
+    github_link: null,
+    image_urls: ["/project7_desktop.webp"],
+    type: "future",
+  },
+  {
+    id: 8,
+    project_name: "Unit 08 - SQL Library Manager",
+    description:
+      "Build a web application to manage a library's book collection using Node.js, Express, Pug, SQLite, and the Sequelize ORM.",
+    technologies: ["SQL", "Sequelize", "JavaScript", "React"],
+    live_link: null,
+    github_link: null,
+    image_urls: ["/project8_desktop.webp"],
+    type: "future",
+  },
+  {
+    id: 9,
+    project_name: "Unit 09 - REST API",
+    description:
+      "Create a REST API using Express and Sequelize to administer a school database with user authentication, course management, and CRUD operations.",
+    technologies: ["SQL", "Sequelize", "JavaScript", "React"],
+    live_link: null,
+    github_link: null,
+    image_urls: ["/project9_desktop.webp"],
+    type: "future",
+  },
+  {
+    id: 10,
+    project_name: "Unit 10 - Full Stack App with React and a REST API",
+    description:
+      "Build a React client for your REST API — a complete full stack app with user authentication, course listing, and full CRUD functionality.",
+    technologies: ["React", "Rest API"],
+    live_link: null,
+    github_link: null,
+    image_urls: ["/project10_desktop.webp"],
+    type: "future",
+  },
+  {
+    id: 11,
+    project_name: "Unit 11 - SQL Library Manager (AI-Assisted Rebuild)",
+    description:
+      "Rebuild the library management app with the help of an AI coding assistant, practicing how to prompt, debug, and refine AI-generated code.",
+    technologies: ["AI-Assisted Development"],
+    live_link: null,
+    github_link: null,
+    image_urls: ["/project11_desktop.webp"],
+    type: "future",
+  },
+];
+
+export const experience = [
+  { id: 1, enterprise: "Vanderlande", position: "Test automatisation" },
+  { id: 2, enterprise: "Espace Proprio", position: "QA Analyst" },
+  { id: 3, enterprise: "Akinox", position: "QA Analyst" },
+  { id: 4, enterprise: "Poka", position: "QA Specialist" },
+];
+
+export const education = [
+  {
+    id: 1,
+    diploma: "Fullstack JavaScript Techdegree",
+    school: "Treehouse",
+  },
+  {
+    id: 2,
+    diploma: "AEC en développement Web",
+    school: "Cégep de Trois-Rivière",
+  },
+  {
+    id: 3,
+    diploma: "DEC en comptabilité et gestion",
+    school: "Cégep de Lévis-Lauzon",
+  },
+];
